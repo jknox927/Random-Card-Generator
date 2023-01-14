@@ -1,1 +1,60 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  font-size: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: 700px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-header {
+  border: none;
+  background: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-value {
+  justify-content: center;
+}
+
+.card-footer {
+  border: none;
+  background: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.card-footer > span {
+  transform: rotate(-180deg)
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
